@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,32 @@
     <link href="../../src/output.css" rel="stylesheet">
     <title>UI design task</title>
 </head>
-<body>
-   <nav class="flex justify-between bg-blue-700">
-    <img src="logo.png" class="h-[40px] w-[50px]">
-    <div class="gap-8">
-        <button <i class="fa-solid fa-plus"></i></button>
-        <button><p>Add todo</p></button>
-   </div>
-   </nav>
 
-   <main>
-    <input type="chicken" name="" placeholder="Chicken pizza"> <br>
-    <input type="chicken" name="" placeholder="Chicken pizza"> <br>
-    <input type="chicken" name="" placeholder="Chicken pizza"> <br>
-    <input type="chicken" name="" placeholder="Chicken pizza">
-   </main>
+<body class="w-full">
     
+
+        <nav class="flex justify-between bg-blue-950">
+            <img src="logo.png" class="h-[100px] ml-10">
+            <div>
+                <button class="flex gap-8 bg-orange-600 mr-8 p-[10px] mt-[28px] rounded-md">
+                    <i class="fa-solid fa-plus text-[25px]"></i>
+                    <p class="text-[18px] text-white">Add todo</p>
+                </button>
+            </div>
+        </nav>
+
+        <main class="p-[40px] text-black">
+            <input type="chicken" class="border-2 w-full p-[15px] rounded-lg" placeholder="Chicken pizza">
+            <i class="fa-solid fa-check"></i> <i class="fa-solid fa-trash"></i> <br>
+            <input type="chicken" class="border-2 w-full p-[15px] rounded-lg mt-[15px]" placeholder="Chicken pizza">
+            <i class="fa-solid fa-check"></i> <i class="fa-solid fa-trash"></i><br>
+            <input type="chicken" class="border-2 w-full p-[15px] rounded-lg mt-[15px]" placeholder="Chicken pizza">
+            <i class="fa-solid fa-check"></i> <i class="fa-solid fa-trash"></i><br>
+            <input type="chicken" class="border-2 w-full p-[15px] rounded-lg mt-[15px]" placeholder="Chicken pizza">
+            <i class="fa-solid fa-check"> <i class="fa-solid fa-trash"></i></i>
+        </main>
+    
+
 </body>
+
 </html>
