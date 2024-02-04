@@ -879,6 +879,14 @@ video {
   gap: 30px;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1112,6 +1120,18 @@ video {
 
 .pt-\[4px\] {
   padding-top: 4px;
+}
+
+.pr-\[30px\] {
+  padding-right: 30px;
+}
+
+.pr-\[15px\] {
+  padding-right: 15px;
+}
+
+.pr-\[18px\] {
+  padding-right: 18px;
 }
 
 .text-center {
